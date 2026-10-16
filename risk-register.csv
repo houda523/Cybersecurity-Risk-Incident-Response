@@ -1,0 +1,5 @@
+ID,Asset,Threat,Vulnerability,Impact,Probability,Inherent Risk,Mitigation,Owner,Status
+R-01,Employee email accounts,Phishing,Insufficient awareness and email controls,High,Medium,High,Enable MFA and email protections; train users,IT Security,Planned
+R-02,Finance workflow,Business email compromise,Weak out-of-band verification,High,Medium,High,Require independent verification for payment changes,Finance + Security,Planned
+R-03,File services,Ransomware,Insufficiently isolated backups,High,Low,High,Maintain offline/immutable backups and test restoration,IT Operations,Planned
+R-04,Endpoints,Malware execution,Delayed patching,Medium,Medium,Medium,Patch prioritization and endpoint monitoring,IT Operations,Planned
